@@ -12,10 +12,6 @@
 
 - Utilizado **fetch** para comunicação com as Apis solicitadas e toda sua lógica se encontra no arquivo public/assets/js/app.js.
 
-- Foi criado duas rotas no arquivo api.php dentro da pasta routes. As rotas apontam para os arquivos: **GitHubApiController** e **AcertApiController** ambos dentro da pasta **App\Http\Controllers\api**
-
-- Toda lógica das apis esta dentro do arquivo **ApiServiceProvider** que se encontra dentro da pasta **App\Providers**.
-
 - Antes de testar o sistema, faça os seguintes comandos, pois pode apresentar alguns erros por causa de cache de aplicação.
 **php artisan config:clear**
 **php artisan cache:clear**
